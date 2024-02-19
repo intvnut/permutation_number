@@ -55,7 +55,7 @@ def decode_permutation(encoded):
 fail = False
 
 for x in range(100000):
-    orig_perm = [x for x in range(256)]
+    orig_perm = x256.copy()
     shuffle(orig_perm)
     encoded   = encode_permutation(orig_perm)
     deco_perm = decode_permutation(encoded)
