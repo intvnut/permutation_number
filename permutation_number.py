@@ -64,9 +64,6 @@ for x in range(100000):
         fail = True
         break
 
-        fail = True
-        break
-
 if fail:
     print(orig_perm)
     print(encoded)
